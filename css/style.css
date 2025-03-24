@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  button {
+    cursor: pointer;
+  }
+}
+
+.container {
+  width: 1312px;
+  margin: 0 auto;
+}
+header {
+  padding: 42px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_ul,
+.header_div {
+  display: flex;
+  column-gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  border: 2px solid #69306d;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart {
+  border: none;
+  background-color: transparent;
+}
+.user,
+.cart {
+  cursor: pointer;
+}
+.main_container {
+  padding-top: 60px;
+  display: flex;
+  gap: 70px;
+  /* justify-content: space-between;  */
+}
+
+.photos {
+  display: flex;
+  width: 646px;
+
+  gap: 20px;
+}
+.card-photos {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 91px;
+  height: 91px;
+}
+.main-photo {
+  width: 535px;
+  height: 535px;
+}
+.descriptions {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #000000;
+}
+*/ .reviews {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.numbers {
+  font-size: 20px;
+  font-weight: 600;
+}
+.price {
+  color: #69306d;
+  font-size: 30px;
+  font-weight: 700;
+}
+.color {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000cc;
+}
+*/ .green {
+  background-color: #b7d0c1;
+}
+.pink {
+  background-color: #ccc8c9;
+}
+.green,
+.pink {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+}
+.btns,
+.colors {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.add-to-cart {
+  background-color: #f2d7ee;
+  color: #69306d;
+  width: 482px;
+}
+.buy-now {
+  background-color: #69306d;
+  color: #faf6ef;
+  width: 593px;
+}
+.buy-now,
+.add-to-cart {
+  height: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+}
